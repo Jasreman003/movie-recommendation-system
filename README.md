@@ -29,8 +29,8 @@ movie-recommendation-system/
 ├── notebooks/
 │   └── movie-recommendation.ipynb
 │
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ---

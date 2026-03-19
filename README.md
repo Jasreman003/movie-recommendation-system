@@ -1,8 +1,32 @@
 # 🎬 Movie Recommendation System
 
 ## 📌 Project Overview
-This project is a Movie Recommendation System built using the MovieLens dataset.  
-It recommends movies similar to a given movie based on user ratings using collaborative filtering.
+This project is a **Movie Recommendation System** built using the MovieLens dataset.  
+It recommends movies similar to a given movie based on user ratings using **collaborative filtering**.
+
+---
+
+## 🌐 Live Demo
+👉 https://movie-recommendation-system-mxrku7zeefoqlc3rjfnxf6.streamlit.app/
+
+---
+
+## 📸 App Preview
+
+### 🟢 Home Screen
+![Home Screen](images/app_screenshot_1.png)
+
+> 🎬 Initial view of the app before selecting a movie
+
+### 🎯 Movie Selection & Recommendation
+![Recommendation View](images/app_screenshot_2.png)
+
+> 🍿 User selects a movie and gets similar movie recommendations
+
+### ⭐ Top Recommendations Display
+![Top Recommendations](images/app_screenshot_3.png)
+
+> 🖼️ Displays recommended movies with posters and details
 
 ---
 
@@ -11,9 +35,22 @@ To build a system that suggests relevant movies to users by analyzing rating pat
 
 ---
 
+## ✨ Features
+
+- 🎬 Movie recommendations based on user similarity  
+- ⭐ Filter movies by minimum number of ratings  
+- 🖼️ Movie posters fetched using OMDb API  
+- 🎨 Interactive UI built with Streamlit  
+- ⚡ Fast and real-time recommendations  
+
+---
+
 ## 📂 Project Structure
 ```
 movie-recommendation-system/
+│
+├──.streamlit/
+│   └── config.toml
 │
 ├── data/
 │   ├── Movie_Id_Titles
@@ -29,8 +66,9 @@ movie-recommendation-system/
 ├── notebooks/
 │   └── movie-recommendation.ipynb
 │
-├── README.md
-└── requirements.txt
+├── app.py 
+├── README.md 
+└── requirements.txt 
 ```
 
 ---
@@ -50,7 +88,9 @@ movie-recommendation-system/
 - Pandas  
 - NumPy  
 - Matplotlib  
-- Seaborn  
+- Seaborn
+- Streamlit  
+- Requests (API integration) 
 
 ---
 
@@ -120,13 +160,30 @@ movie_matrix.corrwith()
 
 ---
 
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/Jasreman003/movie-recommendation-system.git
+cd movie-recommendation-system
+pip install -r requirements.txt
+streamlit run app.py
+
+---
+
+## 🔐 API Key Setup
+
+This project uses OMDb API to fetch movie posters.
+
+Create a `.streamlit/secrets.toml` file and add:
+
+API_KEY = "your_api_key"
+
+---
+
 ## 🙌 Author
 
 **Jasreman Kaur**  
 Aspiring Data Analyst  
 
-## 📬 Contact
-
-If you have any questions or would like to connect, feel free to reach out:
-
 - 💼 LinkedIn: https://www.linkedin.com/in/jasreman-kaur-818568298
+- 🔗 GitHub: https://github.com/Jasreman003

@@ -49,8 +49,8 @@ To build a system that suggests relevant movies to users by analyzing rating pat
 ```
 movie-recommendation-system/
 │
-├──.streamlit/
-│   └── config.toml
+├── .streamlit/
+│    └── config.toml
 │
 ├── data/
 │   ├── Movie_Id_Titles
@@ -170,7 +170,7 @@ git clone https://github.com/Jasreman003/movie-recommendation-system.git
 cd movie-recommendation-system
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ---
 
 ## 🔐 API Key Setup
@@ -179,7 +179,9 @@ This project uses OMDb API to fetch movie posters.
 
 Create a `.streamlit/secrets.toml` file and add:
 
+```
 API_KEY = "your_api_key"
+```
 
 ---
 

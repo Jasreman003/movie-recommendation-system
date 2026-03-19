@@ -57,10 +57,13 @@ movie-recommendation-system/
 │   └── u.data
 │
 ├── images/
+│   ├── app_screenshot_1.png
+│   ├── app_screenshot_2.png
+│   ├── app_screenshot_3.png
 │   ├── correlation_heatmap.png
-│   ├── rating_distribution.png
-│   ├── ratings_count_distribution.png
 │   ├── most_rated_movies.png
+│   ├── ratings_count_distribution.png
+│   ├── rating_distribution.png
 │   └── top_rated_movies.png
 │
 ├── notebooks/

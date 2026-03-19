@@ -3,7 +3,7 @@ import pandas as pd
 
 import requests
 
-API_KEY = "5fbcc2e2"  # replace with your key
+API_KEY = st.secrets["API_KEY"]
 
 def fetch_movie_details(movie_title):
     movie_title_clean = movie_title.split("(")[0].strip()
